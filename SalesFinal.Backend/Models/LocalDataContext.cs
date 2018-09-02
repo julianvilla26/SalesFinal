@@ -1,5 +1,4 @@
-﻿
-namespace SalesFinal.Backend.Models
+﻿namespace SalesFinal.Backend.Models
 {
     using Domain.Models;
 

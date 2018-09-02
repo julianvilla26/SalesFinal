@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SalesFinal.ViewModels
+﻿namespace SalesFinal.ViewModels
 {
     using System.Collections.Generic;
     using System.ComponentModel;

@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Net;
-using System.Web;
-using System.Web.Mvc;
-using SalesFinal.Backend.Models;
-using SalesFinal.Common.Models;
-
-namespace SalesFinal.Backend.Controllers
+﻿namespace SalesFinal.Backend.Controllers
 {
+    using System.Data.Entity;
+    using System.Net;
+    using System.Threading.Tasks;
+    using System.Web.Mvc;
+    using Backend.Models;
+    using Common.Models;
+
     public class ProductsController : Controller
     {
         private LocalDataContext db = new LocalDataContext();
