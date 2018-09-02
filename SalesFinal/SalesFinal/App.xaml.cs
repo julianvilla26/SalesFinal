@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
-
-namespace SalesFinal
+﻿namespace SalesFinal
 {
-	public partial class App : Application
+    using Views;
+    using Xamarin.Forms;
+
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new SalesFinal.MainPage();
+			MainPage = new NavigationPage(new ProductsPage());
 		}
 
 		protected override void OnStart ()
