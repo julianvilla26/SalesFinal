@@ -4,6 +4,6 @@
 
     public class LocalDataContext : DataContext
     {
-        public System.Data.Entity.DbSet<SalesFinal.Common.Models.Product> Products { get; set; }
+        
     }
 }
